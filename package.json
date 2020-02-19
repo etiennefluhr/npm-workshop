@@ -18,9 +18,13 @@
   },
   "homepage": "https://github.com/etiennefluhr/npm-workshop#readme",
   "devDependencies": {
+    "@types/matter-js": "^0.10.9",
     "awesome-typescript-loader": "^5.2.1",
     "typescript": "^3.7.5",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "matter-js": "^0.14.2"
   }
 }
