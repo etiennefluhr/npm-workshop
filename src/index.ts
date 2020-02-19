@@ -17,6 +17,8 @@ class MatterJsDemo
 
         let boxA :Matter.Body   = Matter.Bodies.rectangle( 400, 200, 80,  80 );
         let boxB :Matter.Body   = Matter.Bodies.rectangle( 450, 50,  80,  80 );
+        let boxC :Matter.Body   = Matter.Bodies.rectangle( 350, 100, 100, 80  )
+        let circleA :Matter.Body   = Matter.Bodies.circle( 300, 100,  70,  { mass: 5 } );
         let ground :Matter.Body = Matter.Bodies.rectangle( 400, 610, 810, 60, { isStatic: true } );
 
         // add all bodies to the engine's world
@@ -26,6 +28,8 @@ class MatterJsDemo
             [
                 boxA,
                 boxB,
+                boxC,
+                circleA,
                 ground,
             ]
         );
