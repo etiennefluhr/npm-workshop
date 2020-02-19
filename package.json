@@ -1,0 +1,25 @@
+{
+  "name": "npmWorkshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etiennefluhr/npm-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etiennefluhr/npm-workshop/issues"
+  },
+  "homepage": "https://github.com/etiennefluhr/npm-workshop#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^3.10.0"
+  }
+}
