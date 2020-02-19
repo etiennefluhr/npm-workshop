@@ -10,7 +10,7 @@ module.exports = {
     },
     devtool: 'source-map',
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.ts$/,
                 loader: 'awesome-typescript-loader'
